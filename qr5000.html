@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QR Code 1</title>
+    <title>mere hint</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
     <style>
         body {
@@ -11,23 +11,28 @@
             text-align: center;
             margin: 50px;
             background-color: #DDF4DE; 
-            color: #DDF4DE; 
+            color: #5aa55c; 
         }
         .highlight {
             font-weight: bold;
             font-size: 28px; 
-            margin-bottom: 20px;
-         
+        }
+        .ciphertext {
+            font-weight: bold;
+            color: #E83D99;
+            font-size: 40px;
+            margin-bottom: 15px; 
         }
         .clue {
-            font-size: 18px;
+            font-size: 15px;
             white-space: pre-line;
             margin-left: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="highlight">Enda mere hint</div>
+    <div class="highlight"></div>
+    <div class="ciphertext">Enda mere hint?</div>
     <div class="clue">
         -> AES decryption
         -> nøkkelen og IV må være satt til UTF8 format og den må være 16 karakterer lang
