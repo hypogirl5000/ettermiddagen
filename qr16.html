@@ -10,8 +10,8 @@
             font-family: 'Roboto Mono', monospace;
             text-align: center;
             margin: 50px;
-            background-color: #2c3e50; 
-            color: #ecf0f1;
+            background-color: #DDF4DE; 
+            color: #A2D4A3;
         }
         .highlight {
             font-weight: bold;
@@ -19,13 +19,14 @@
         }
         .ciphertext {
             font-weight: bold;
-            color: #3498db;
+            color: #E83D99;
             font-size: 50px;
             margin-bottom: 15px; 
         }
         .clue {
             font-size: 18px;
-            white-space: pre-line; /* This property respects line breaks */
+            white-space: pre-line;
+            margin-left: 20px;
         }
     </style>
 </head>
@@ -35,17 +36,21 @@
     <div class="clue">
         Nå er det tid for å kokkelere litt på cyberchef.io!
         
-        Hvilken symmetrisk krypteringsform har vi lært om?
-        man trenger iallfall en nøkkel. 
-        ( hint: hvor er vi og hva gjør vi? )
-        ( mer hint: 16 byte keylength med utf8 )
-        man må også en initialiseringsvektor!
-        ( hint: samme lengde som nøkkel og litt mer enn 0 )
+        Du må dekryptere ciphertexten med en hemmelig nøkkel,
+        i tillegg til å finne riktig initialiseringsvektor!
+
+        her er noen hint:
+        (operations) Hva er en symmetrisk krypteringsalgoritme har vi lært om?
+        (key) Hvor er vi fysisk og hva deltar vi på?
+        (iv) litt mer enn 0, husk at den må være lang nok!
+        
+        
+        Prøv deg fram, men hvis du ikke får det til, fortvil ikke!!!
+        Det er hjelp å få ved bytteboden på biblioteket.
+        
         
         Når du har kokkelert ferdig og dekryptert ciphertexten,
         kom til dagen standen og lever svaret ditt:D
-        
-
     </div>
 </body>
 </html>

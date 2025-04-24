@@ -10,29 +10,29 @@
             font-family: 'Roboto Mono', monospace; 
             text-align: center;
             margin: 50px;
-            background-color: #2c3e50; 
-            color: #ecf0f1; 
+            background-color: #DDF4DE; 
+            color: #DDF4DE; 
         }
         .highlight {
             font-weight: bold;
             font-size: 28px; 
-            margin-bottom: 20px; 
-        }
-        .ciphertext {
-            font-weight: bold;
-            color: #3498db; 
-            font-size: 50px;
-            margin-bottom: 15px; 
+            margin-bottom: 20px;
+         
         }
         .clue {
-            font-size: 20px;
-            line-height: 1.6; 
+            font-size: 18px;
+            white-space: pre-line;
+            margin-left: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="highlight">?</div>
-    <div class="ciphertext">?</div>
-    <div class="clue">?</div>
+    <div class="highlight">Enda mere hint</div>
+    <div class="clue">
+        -> AES decryption
+        -> nøkkelen og IV må være satt til UTF8 format og den må være 16 karakterer lang
+        -> IV skrives som en bitstreng, altså 0 eller 1. den skal være litt større enn 0.
+        -> f.eks 0001 > 0000
+    </div>
 </body>
 </html>
