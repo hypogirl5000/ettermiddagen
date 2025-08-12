@@ -3,6 +3,6 @@
 - A simple challenge, where that must find the qr codes that give them ciphertext and clues
 - ciphertexts are to be decrypted with cyberchef.io
 - made lots of files so that people parcicipating will have a hard time guessing where the ciphertexts are hidden, if they find them selves cheating by looking at my repo mohahahahah
-- the relevant files are 1, 16, 420
+- the relevant files are 1, 3, 16, 420, 5000
 
 Enjoy the hunt and happy decrypting!
